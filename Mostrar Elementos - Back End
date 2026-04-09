@@ -1,0 +1,8 @@
+function mostrarElementos (array){
+  for (let i = 0; i < array.length; i++){
+        console.log(array[i]);
+    }
+}
+
+const lista = ["casa", "mesa", "laranja",]
+mostrarElementos(lista)
