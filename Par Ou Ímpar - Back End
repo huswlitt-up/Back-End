@@ -1,0 +1,4 @@
+function parOuImpar(n){
+  return (n % 2 == 0) ? "Par" : "Ímpar";
+}
+console.log (parOuImpar(3))
