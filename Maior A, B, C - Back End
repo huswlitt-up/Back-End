@@ -1,0 +1,7 @@
+function maior(a,b,c){
+  let m = a;
+  if(b > m){ m = b; }
+  if(c > m){ m = c; }
+  return m;
+}
+console.log(maior(10, 50, 30));
