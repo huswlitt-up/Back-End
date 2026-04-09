@@ -1,0 +1,10 @@
+function contarPares(numeros){
+  let qtd = 0;
+  for(let i = 0; i < numeros.length; i++){
+    if(numeros[i] % 2 == 0){
+      qtd++;
+    }
+  }
+  return qtd;
+}
+console.log(contarPares(2))
